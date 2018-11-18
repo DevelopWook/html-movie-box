@@ -1,0 +1,31 @@
+﻿body
+{
+	background-image : url("img/dark.jpg");
+	background-attachment : fixed;
+	background-repeat : repeat;
+}
+
+table
+{
+	border : solid 1px orange; /* 1px 굵기로 선테두리 */
+	border-collspase : collapse; /* 테두리선을 겹쳐서 표현 */
+}
+
+td
+{
+	color : black;
+	border : solid 1px orange;
+	text-align : center;
+	background-color : Khaki;
+}
+
+caption
+{
+	color : Orange;
+}
+
+img
+{
+	width : 200px;
+	height : 270px;
+}

@@ -1,0 +1,36 @@
+body
+{
+	background-image : url("../img/dark.jpg");
+	background-attachment : fixed; /* 배경고정 */
+	background-repeat : repeat;
+}
+
+table
+{
+	background-color : black;
+	width : 50%;
+	height : 50%;
+	border : 0px;
+	margin : auto;
+}
+
+caption
+{
+	font-size : 20;
+	text-align : center;
+	color : #FF00DD;
+}
+
+td
+{
+	border : 1px solid Orange;
+	padding : 5px 5px;
+	color : Yellow;
+	text-align : left;
+}
+
+img
+{
+	width : 200px;
+	height : 270px;
+}
