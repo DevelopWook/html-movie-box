@@ -13,23 +13,23 @@
 -   담당 :
     -   영화정보 수집
         -   포스터, 줄거리, 평점 등
-    -   프로젝트 폴더 구조 계획
-    -   Project Directory Architecture 계획
+    -   프로젝트 폴더 구조 구상
     -   개발
-
-## 주요 기술
-
--   HTML, CSS, JavsScript
--   frame을 이용한 header, Content 나누기
--   marquee 태그
--   드롭다운 메뉴
--   window object를 이용한 포스터 확대보기 구현
 
 ## 개발 환경
 
 -   **OS** : Windows 7
 -   **IDE** : Notepad++
 -   **Browser** : Chrome
+-   **Programming Language**
+    - HTML, CSS, JavaScript
+
+## 주요 기술
+
+-   frame을 이용한 header, Content Layout
+-   marquee Tag
+-   DropDown Menu
+-   window object를 이용한 포스터 확대보기 Popup
 
 ## 세부내용
 
@@ -72,16 +72,16 @@
 
     > marquee 태그를 이용하여 좌우로 움직이도록 만들었다.
 
--   **Menu Mouse over**
+-   **Menu hover**
 
-    ![Menu Mouser Over](./etc/menu-mouse-over2.gif)
+    ![Menu hover](./etc/menu-mouse-over2.gif)
 
     > css로 드롭다운 메뉴 구현  
     > code : `Project/frame_menu/menu.htm`
 
--   **view poster big size**
+-   **View Poster Big Size**
 
-    ![view poster big size](./etc/poster-click.gif)
+    ![View Poster Big Size](./etc/poster-click.gif)
 
     `project/movie/표적.htm`
 
