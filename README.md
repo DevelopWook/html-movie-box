@@ -46,7 +46,7 @@
 
 ### 주요 코드 및 기능
 
--   Door 화면
+-   `Door 화면` 녹색
 
 ![Door 화면](./etc/Door.jpg)
 
