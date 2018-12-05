@@ -46,13 +46,13 @@
 
 ### 주요 기능
 
--   <span style="color: green;">Door 화면</span> 녹색
+-   **Door 화면**
 
-![Door 화면](./etc/Door.jpg)
+    ![Door 화면](./etc/Door.jpg)
 
-> table을 이용하여 구현하였다.
+    > table을 이용하여 구현하였다.
 
--   Main
+-   **Main**
 
 ![Main 화면](./etc/main-moving.gif)
 
