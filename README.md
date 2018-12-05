@@ -1,74 +1,65 @@
 # html-movie-box
-## 제목2
 
-### 제목3
+## 개요
 
-#### 제목4
+-   영화 정보를 보여주는 웹 사이트
 
-##### 제목5
+## 제작과정 <- 이름 바꾸기
 
+-   프로젝트 명 : Movie Box
+-   수행기간 : 2014년 5월
+-   프로젝트 인원 : 1명
+-   나의 기여도 : 100%
+-   담당 :
+    -   영화정보 수집
+        -   포스터, 줄거리, 평점 등
+    -   프로젝트 폴더 구조 계획
+    -   Project Directory Architecture 계획
+    -   개발
 
-> 안녕하세요 pbw 입니다
+## 주요 기술
 
-## 목차
-***
-내용1
+-   HTML, CSS, JavsScript
+-   frame을 이용한 header, Content 나누기
+-   marquee 태그
+-   드롭다운 메뉴
+-   window object를 이용한 포스터 확대보기 구현
 
-**내용2**
+## 개발 환경
 
-코드1
-```
-markdown {
-    lineNumber: true;
-}
-```
+-   **OS** : Windows 7
+-   **IDE** : Notepad++
+-   **Browser** : Chrome
 
-```js
-console.log('pbw');
-const a = () => {
-    const b = [];
-    b.map(1, item => {
+## 세부내용
 
-    })
-}
-function func() {
-    var a = 'AAA';
-    return a;
-}
-```
+### 초기 기획안
 
-::: tip
-abcd
-:::
+![초기 기획안](./etc/초기기획안.jpg)
 
-| Tables        | Are           | Cool  |
-| ------------- | :-----------: | ----: |
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      | $12   |
-| zebra stripes | are neat      | $1    |
+> 초기 기획안은 Header, SideMenu, Content로 세개의 frame으로 나누는 것이었지만  
+> Header 메뉴를 드롭다운으로 구현하는 것으로 방식을 변경하였다.
 
-:tada: :100:
+### 웹 사이트 구조
 
-[[toc]]
+![Website Architecture](./etc/웹사이트구조.jpg)
 
+### 주요 코드 및 기능
 
-값 | 의미 | 기본값
----|:---:|---:
-`static` | 유형(기준) 없음 / 배치 불가능 | `static`
-`relative` | 요소 **자신**을 기준으로 배치 |
-`absolute` | 위치 상 **_부모_(조상)요소**를 기준으로 배치 |
-`fixed` | **브라우저 창**을 기준으로 배치 |
+-   Door 화면
 
-인용문(blockQuote)
+![Door 화면](./etc/Door.jpg)
 
-> 남의 말이나 글에서 직접 또는 간접으로 따온 문장.
-> _(네이버 국어 사전)_
+> table을 이용하여 구현하였다.
 
-BREAK!
+-   Main
 
-> 인용문을 작성하세요!
->> 중첩된 인용문(nested blockquote)을 만들 수 있습니다.
->>> 중중첩된 인용문 1
->>> 중중첩된 인용문 2
->>> 중중첩된 인용문 3
+![Main 화면](./etc/main-moving.gif)
 
+> marquee 태그를 이용하여 좌우로 움직이도록 만들었다.
+
+-   Menu Mouse over
+
+![Menu Mouser Over](./etc/menu-mouse-over2.gif)
+
+> css로 드롭다운 메뉴 구현
