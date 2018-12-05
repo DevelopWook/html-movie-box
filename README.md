@@ -35,14 +35,14 @@
 
 ### 초기 기획안
 
-![초기 기획안](./etc/초기기획안.jpg)
+![초기 기획안](./etc/first.jpg)
 
 > 초기 기획안은 Header, SideMenu, Content로 세개의 frame으로 나누는 것이었지만  
 > Header 메뉴를 드롭다운으로 구현하는 것으로 방식을 변경하였다.
 
 ### 웹 사이트 구조
 
-![Website Architecture](./etc/웹사이트구조.jpg)
+![Website Architecture](./etc/website-architecture.jpg)
 
 ### 주요 코드 및 기능
 
@@ -63,3 +63,5 @@
 ![Menu Mouser Over](./etc/menu-mouse-over2.gif)
 
 > css로 드롭다운 메뉴 구현
+
+<img src="./etc/first.jpg" />
