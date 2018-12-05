@@ -31,6 +31,8 @@
 -   **IDE** : Notepad++
 -   **Browser** : Chrome
 
+<br/>
+
 ## 세부내용
 
 ### 초기 기획안
@@ -40,9 +42,13 @@
 > 초기 기획안은 Header, SideMenu, Content로 세개의 frame으로 나누는 것이었지만  
 > Header 메뉴를 드롭다운으로 구현하는 것으로 방식을 변경하였다.
 
+<br/>
+
 ### 웹 사이트 구조
 
 ![Website Architecture](./etc/website-architecture.JPG)
+
+<br/>
 
 ### 주요 기능
 
@@ -52,16 +58,14 @@
 
     > table을 이용하여 구현하였다.
 
-    #### Main
+-   **Main**
 
     ![Main 화면](./etc/main-moving.gif)
 
     > marquee 태그를 이용하여 좌우로 움직이도록 만들었다.
 
--   Menu Mouse over
+-   **Menu Mouse over**
 
-![Menu Mouser Over](./etc/menu-mouse-over2.gif)
+    ![Menu Mouser Over](./etc/menu-mouse-over2.gif)
 
-> css로 드롭다운 메뉴 구현
-
-<img src="./etc/first.jpg" />
+    > css로 드롭다운 메뉴 구현
