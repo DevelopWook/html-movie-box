@@ -42,7 +42,7 @@
 
 ### 웹 사이트 구조
 
-![Website Architecture](./etc/website-architecture.jpg)
+![Website Architecture](./etc/website-architecture.JPG)
 
 ### 주요 기능
 
