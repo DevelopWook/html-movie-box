@@ -44,9 +44,9 @@
 
 ![Website Architecture](./etc/website-architecture.jpg)
 
-### 주요 코드 및 기능
+### 주요 기능
 
--   `Door 화면` 녹색
+-   <span style="color: green;">Door 화면</span> 녹색
 
 ![Door 화면](./etc/Door.jpg)
 
