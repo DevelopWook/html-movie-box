@@ -1,10 +1,10 @@
-# html-movie-box
+# HTML-MovieBox
 
 ## 개요
 
 -   영화 정보를 보여주는 웹 사이트
 
-## 제작과정 <- 이름 바꾸기
+## 제작과정
 
 -   프로젝트 명 : Movie Box
 -   수행기간 : 2014년 5월
@@ -31,8 +31,6 @@
 -   **IDE** : Notepad++
 -   **Browser** : Chrome
 
-<br/>
-
 ## 세부내용
 
 ### 초기 기획안
@@ -42,13 +40,13 @@
 > 초기 기획안은 Header, SideMenu, Content로 세개의 frame으로 나누는 것이었지만  
 > Header 메뉴를 드롭다운으로 구현하는 것으로 방식을 변경하였다.
 
-<br/>
-
 ### 웹 사이트 구조
 
 ![Website Architecture](./etc/website-architecture.JPG)
 
-<br/>
+### 전체 Process
+
+![process](./etc/process.gif)
 
 ### 주요 기능
 
@@ -62,10 +60,48 @@
 
     ![Main 화면](./etc/main-moving.gif)
 
+    `project/frame_contents/home_contents.htm`
+
+    ```html
+    <marquee behavior="alternate" width="1000">
+        <table>
+            ...
+        </table>
+    </marquee>
+    ```
+
     > marquee 태그를 이용하여 좌우로 움직이도록 만들었다.
 
 -   **Menu Mouse over**
 
     ![Menu Mouser Over](./etc/menu-mouse-over2.gif)
 
-    > css로 드롭다운 메뉴 구현
+    > css로 드롭다운 메뉴 구현  
+    > code : `Project/frame_menu/menu.htm`
+
+-   **view poster big size**
+
+    ![view poster big size](./etc/poster-click.gif)
+
+    `project/movie/표적.htm`
+
+    ```html
+    <script language="javascript" src="movie.js"></script>
+    ... 
+    <img src="img/표적포스터.jpg" onClick="openWin(this.src)" />
+    ```
+
+    `project/movie/국내/movie.js`
+
+    ```javascript
+    function openWin(src) {
+        win = window.open('' + src + '', 'win', 'width=1024 height=768 directories=no');
+        win.document.write('<html><head>');
+        win.document.write('<title>포스터 확대보기</title>');
+        win.document.write("</head><body leftmargin=0 topmargin=0 onclick='self.close()'>");
+        win.document.write("<img src='" + src + "' width=100% height=100%>");
+        win.document.write('</body></html>');
+    }
+    ```
+
+    > 영화 상세 페이지에서 포스터 클릭 시 팝업창으로 포스터를 크게 볼 수 있다.
