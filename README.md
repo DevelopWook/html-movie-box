@@ -21,7 +21,7 @@
 -   **OS** : Windows 7
 -   **IDE** : Notepad++
 -   **Browser** : Chrome
--   **Programming Language**
+-   **Programming Languages**
     - HTML, CSS, JavaScript
 
 ## 주요 기술
@@ -105,3 +105,8 @@
     ```
 
     > 영화 상세 페이지에서 포스터 클릭 시 팝업창으로 포스터를 크게 볼 수 있다.
+
+### 실행 방법
+
+1.    DownLoad Project Folder
+2.    Execute `project/door/door.htm`
