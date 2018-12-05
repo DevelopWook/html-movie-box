@@ -52,11 +52,11 @@
 
     > table을 이용하여 구현하였다.
 
--   **Main**
+    #### Main
 
-![Main 화면](./etc/main-moving.gif)
+    ![Main 화면](./etc/main-moving.gif)
 
-> marquee 태그를 이용하여 좌우로 움직이도록 만들었다.
+    > marquee 태그를 이용하여 좌우로 움직이도록 만들었다.
 
 -   Menu Mouse over
 
