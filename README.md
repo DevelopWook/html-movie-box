@@ -19,7 +19,7 @@
 
 ## Show Case
 
-- https://competent-bohr-f71db3.netlify.app/project/main/main.htm
+- <a href="https://competent-bohr-f71db3.netlify.app/project/main/main.htm" target="_blank">https://competent-bohr-f71db3.netlify.app/project/main/main.htm</a>
 
 ## 제작과정
 
