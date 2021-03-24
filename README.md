@@ -17,6 +17,10 @@
 
 -   영화 정보를 보여주는 웹 사이트
 
+## Show Case
+
+- https://competent-bohr-f71db3.netlify.app/project/main/main.htm
+
 ## 제작과정
 
 -   프로젝트 명 : Movie Box
